@@ -1,0 +1,27 @@
+<svg width="64" height="64" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer Circular Ring (Road / Wheel Rim) -->
+  <circle cx="24" cy="24" r="21" stroke="#201e1d" stroke-width="2.5" stroke-dasharray="4 2" stroke-opacity="0.3" />
+
+  <!-- 4 Collaborative Journey Arcs (Fair Rotation of Duties) -->
+  <!-- Arc 1: Driver 1 (Accent: Red) -->
+  <path d="M 24 5 A 19 19 0 0 1 43 24" stroke="#ec3013" stroke-width="4" stroke-linecap="round" />
+  <!-- Arc 2: Driver 2 -->
+  <path d="M 43 24 A 19 19 0 0 1 24 43" stroke="#201e1d" stroke-width="4" stroke-linecap="round" />
+  <!-- Arc 3: Driver 3 -->
+  <path d="M 24 43 A 19 19 0 0 1 5 24" stroke="#201e1d" stroke-width="4" stroke-linecap="round" />
+  <!-- Arc 4: Driver 4 (Blue) -->
+  <path d="M 5 24 A 19 19 0 0 1 24 5" stroke="#1d8bd1" stroke-width="4" stroke-linecap="round" />
+
+  <!-- 4 Shared Passenger Nodes on Wheel Spokes -->
+  <circle cx="24" cy="5" r="2.8" fill="#ec3013" />
+  <circle cx="43" cy="24" r="2.8" fill="#201e1d" />
+  <circle cx="24" cy="43" r="2.8" fill="#201e1d" />
+  <circle cx="5" cy="24" r="2.8" fill="#1d8bd1" />
+
+  <!-- Steering Wheel Spokes -->
+  <path d="M 24 14 L 24 24 M 24 24 L 14 31 M 24 24 L 34 31" stroke="#201e1d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Central Hub / Meeting Point -->
+  <circle cx="24" cy="24" r="5" fill="#201e1d" />
+  <circle cx="24" cy="24" r="2.2" fill="#ffffff" />
+</svg>
